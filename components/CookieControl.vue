@@ -8,7 +8,7 @@
               <slot name="bar">
                 <h3 v-text="cookies.text.barTitle"/>
                 <p v-text="cookies.text.barDescription"/>
-                <p>See our <a href="https://www.socialsolutions.biz/privacy/">Privacy Policy</a></p>
+                <p>See our <a class="link" href="https://www.socialsolutions.biz/privacy/">Privacy Policy</a>.</p>
               </slot>
             </div>
             <div class="cookieControl__BarButtons">
@@ -168,3 +168,8 @@ export default {
   }
 }
 </script>
+<style>
+.link{
+  color: #ff6d01;
+}
+</style>
